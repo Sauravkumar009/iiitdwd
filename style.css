@@ -1,0 +1,560 @@
+*{
+    margin: 0;padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(./img/banner.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+nav img{
+    width: 151px;
+    position: relative;
+    top: 9px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 0px 15px;
+   position: relative;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 3rem;
+}
+
+.text-box p{
+    margin: 10px 0px 45px;
+}
+
+.hero-btn{
+    border: 1px solid white;
+    padding: 11px 21px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero-btn:hover{
+    border: 1px solid tomato;
+    background-color: tomato;
+    transition: 0.7s;
+}
+
+.course{
+    width: 80%;
+    margin: auto;
+    padding: 25px 0px;
+    text-align: center;
+    padding-top: 15vh;
+}
+.course h1{
+    font-size: 2.5rem;
+    padding-bottom: 1vh;
+   
+}
+.course-para{
+    margin-bottom: 11vh;
+    font-size: 1.5rem;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 11px ; */
+}
+.row h2{
+    text-align: left;
+}
+
+.course-col{
+    height: 210px;
+    border: 2px solid rgb(243, 236, 226);
+    border-radius: 11px;
+    padding: 18px 18px;
+    margin: 0px 11px;
+    background-color: rgb(243, 236, 226);
+    transition: 0.5s;
+}
+.course-col p{
+    height: 1.2rem;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 21px rgba(0, 0, 0, .3);
+}
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.campus h1{
+    font-size: 2.5rem;
+    padding-bottom: 1vh;
+}
+.campus p{
+    margin-bottom: 11vh;
+    font-size: 1.5rem;
+}
+
+.row-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.campus-col img{
+    width: 371px;
+    height: 371px;
+    border-radius: 11px;
+    margin-bottom: 25px;
+}
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.facilities h1{
+    font-size: 2.5rem;
+    padding-bottom: 1vh;
+}
+.facilities-para{
+    font-size: 1.5rem;
+    margin-bottom: 11vh;
+}
+
+.row-facilities{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.facilities-col {
+    text-align: center;
+}
+.facilities-col img{
+    width: 371px;
+    border-radius: 11px;
+}
+.facilities-col h2{
+    font-size: 1.2rem;
+   text-align: center;
+   padding: 15px 0px;
+   
+   
+}
+
+.facilities-col p{
+    width: 80%;
+    margin: auto;
+}
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 15vh;
+}
+
+.testimonials h1{
+    font-size: 2.5rem;
+    padding-bottom: 1vh;
+}
+
+.testimonials-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.testimonials-col{
+       width: 80%;
+       background-color: rgb(250, 239, 231);
+      margin: 25px 25px;
+      text-align: left;
+      padding-left: 11px;
+      border-radius: 11px;
+       
+
+
+}
+.testimonials-col img{
+    width: 81px;
+    height: 81px;
+    border: 2px solid black;
+    border-radius: 111px;
+    margin-top: 11px;
+    
+    
+}
+
+.star img{
+            width: 21px;
+            height: 21px;
+}
+
+.contact{
+        margin-top: 151px;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./img/banner2.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 201px 0px;
+        text-transform: capitalize;
+        
+}
+.contact-box{
+    width: 100%;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.contact h2{
+   padding: 31px;
+
+}
+
+footer{
+   width: 80%;
+   margin: 15vh auto 11px auto;
+   text-align: center;
+   
+}
+footer h2{
+        font-size: 2.5rem;
+        margin: 11px;
+}
+.footer-img{
+    margin: 25px;
+    cursor: pointer;
+}
+
+
+
+/* -----------About-------- */
+
+.sub-header{
+    height: 55vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(./img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.sub-header h1{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 70px;
+    
+}
+
+.aboutus{
+    width: 80%;
+    margin: auto;
+    text-transform: capitalize;
+    
+
+}
+
+.aboutus-row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aboutus-col{
+    width: 100%;
+    margin-top: 101px;
+}
+.aboutus-col h1{
+     padding-bottom: 15px;
+     font-size: 1.8rem;
+}
+.aboutus-col p{
+   text-align: left;
+   margin: 10px 0px 30px 0px;
+}
+.aboutus-col img{
+        width: 80%;
+        margin: 0px 55px;
+        border-radius: 15px;
+
+       
+}
+
+.about-btn{
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    
+}
+.about-btn:hover{
+    color: white;
+}
+
+/* ----------------blog-------------- */
+
+.blog{
+    width: 90%;
+    margin: auto;
+}
+
+.blog-row{
+    display: flex;
+    margin: 75px 0px 0px 0px;
+
+}
+
+.blog-left{
+    width: 60%;
+   
+}
+.blog-left img{
+    width: 100%;
+    /* height: 51; */
+}
+
+.blog-left h2{
+    margin: 11px;
+    text-align: center;
+}
+
+.blog-right{
+    width: 35%;
+    margin: 0px auto;
+    
+}
+
+.blog-right h1{
+   text-align: center;
+   font-size: 2rem;
+   margin-bottom: 51px;
+   background-color: orange;
+   border-radius: 5px;
+   color: white;
+}
+.programes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 11px;
+    padding: 11px;
+}
+.programes p{
+  font-weight: bold;
+}
+
+.blog-comment {
+    margin: 261px 0px 0px 25px;
+    height: 471px;
+    text-transform: capitalize;
+    /* border: 2px solid black; */
+    background-color: rgb(243, 236, 226);
+    border-radius: 11px;
+    
+    
+}
+.blog-comment h4{
+    font-size: 1.2rem;
+    padding: 11px 0px 11px 16px;
+    
+    
+   
+}
+
+.comment-blog{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    /* align-items: center; */
+}
+.blog-comment input{
+    width: 90%;
+    margin: 11px;
+    padding: 5px 5px;
+    /* border-radius: 5px; */
+}
+
+.blog-comment textarea{
+    width: 90%;
+    margin: 11px;
+    padding: 5px 5px;
+
+}
+
+.comment-btn{
+    color: red;
+    border: 2px solid red;
+    
+    position: relative;
+    top: 20px;
+    left: 15px;
+    padding: 9px 9px;
+    border-radius: 5px;
+}
+
+.comment-btn:hover{
+   color: white;
+}
+
+
+/* ---------------------location------------- */
+
+.location{
+    width: 90%;
+    margin: 35px auto;
+    
+}
+.location iframe{
+    width: 100%;
+    
+}
+
+/* ---------------contact-us------------------- */
+
+
+
+
+.contact-us{
+   width: 90%;
+   margin: 45px auto;
+}
+
+.contact-row{
+    display: flex;
+}
+
+.contact-left{
+    width: 35%;
+   
+}
+
+.contact-left h3 {
+    margin-left: 35px;
+}
+
+.contact-left p{
+    margin-left: 35px;
+}
+
+.contact-left img{
+    position: relative;
+    top: 45px;
+}
+
+.contact-right{
+    width: 50%;
+    margin: auto;
+}
+.contact-right form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+
+form input{
+    margin: 11px 0px;
+    padding: 5px 5px;
+   
+}
+
+form textarea{
+    margin: 11px 0px;
+    padding: 5px 5px;
+    
+}
+
+.contact-btn{
+    color: red;
+    border: 2px solid red;
+    width: 116px;
+    padding: 9px 9px;
+    border-radius: 5px;
+}
+
+.contact-btn:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

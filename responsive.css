@@ -1,0 +1,147 @@
+
+
+
+@media(max-width:750px){
+
+    nav{
+        flex-direction: column;
+    }
+    nav img{
+        margin-bottom: 11px;
+    }
+    
+    ul {
+        
+        text-align: center;
+    }
+    .nav-links ul li {
+        padding: 0px 7px;
+    }
+
+
+    .course{
+        width: 95%;
+        margin: auto;
+    }
+
+    .row{
+        
+        flex-direction: column;
+        
+    }
+    .course-col{
+        margin: 11px;
+    }
+
+    .campus{
+        width: 95%;
+        margin: auto;
+    }
+    .campus-col img{
+        width: 95%;
+    }
+    .row-img{
+        flex-direction: column;
+    }
+
+    .facilities{
+        width: 95%;
+        margin: auto;
+    }
+    .facilities p{
+        padding-bottom: 11px;
+    }
+    .facilities-col img{
+        width: 95%;
+    }
+
+    .row-facilities{
+        flex-direction: column;
+    }
+    .testimonials{
+        width: 95%;
+        margin: auto;
+    }
+
+    .testimonials-row{
+        flex-direction: column;
+    }
+    
+    .testimonials-col{
+        width: 95%;
+        margin: 12px auto;
+
+    }
+
+    
+}
+
+@media(max-width:700px){
+    
+    .aboutus{
+        width: 95%;
+        margin: auto;
+        
+    }
+    .aboutus-row{
+        flex-direction: column;
+    }
+    .aboutus-col img{
+        width: 95%;
+        margin: auto;
+    }
+
+    .blog-row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .blog-left{
+        width: 99%;
+        margin: auto;
+    }
+    .blog-left img{
+        width: 100%;
+    }
+    .blog-left h2{
+        width: 100%;
+    }
+    .blog-left p{
+        width: 100%;
+    }
+
+    .blog-right{
+       margin-top: 25px;
+        width: 100%;
+        
+        
+    }
+    .blog-comment{
+        
+       width: 95%;
+        position: relative;
+        right: 15px;
+        top: -51px;
+       
+    }
+    /* .blog-h1{
+        font-size: 12px;
+    } */
+    .sub-header h1{
+        font-size: 1.1rem;
+    }
+
+    .contact-row{
+        flex-direction: column;
+    }
+
+    .contact-left{
+        width: 95%;
+        margin-bottom: 45px;
+    }
+
+    .contact-right{
+        width: 95%;
+    }
+
+}
+
